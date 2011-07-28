@@ -1,0 +1,4 @@
+This MapReduce program in Hadoop computes the Probabilities of a product being in stock given its last status (in stock / out of stock)
+It uses the Bayesian posterior as : P(in-stock | last status) = P(in-stock and last-status)/marginal
+where marginal is P(in-stock and last-status=in)+P(in-stock and last-status=out)
+
